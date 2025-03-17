@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Chivo", sans-serif;  
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url("./img/Bitmap.png");
+   background-repeat: no-repeat;
+   font-family: Chivo;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 100vh;
+   background-color: #121725;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 6.2rem;
+    gap: 1rem;
+    padding-bottom: 5.7rem;
+}
+
+header h1{
+    margin-top: 1.2rem;
+}
+
+
+
+main h2{
+flex-direction: row;
+color: #54E6AF;
+font-size: 2.6rem;
+font-weight: 300;
+line-height: 3.8rem;
+text-transform: uppercase;
+width: 32.7rem;
+height: 7.6rem;
+}
+
+main h2 span{
+   color:#fff;
+   padding-left: 25%;
+}
+
+.description{
+margin-top: 2rem;
+width: 32.7rem;
+height: 10rem;
+color: #C2CBE5;
+font-size: 15px;
+font-weight: 300;
+line-height: 2.5rem; 
+}
+
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    margin-bottom: 4.8rem;
+    margin-top: 3.3rem;
+} 
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.mail{
+    padding: 1rem 20rem 1rem 3rem;
+    width: 32.7rem;
+    height: 4.6rem;
+    border-radius: 2.8rem;
+    background: #2C344B;
+}
+
+.mail span{
+    color: #FFF;
+font-size: 1.4rem;
+
+font-weight: 400;
+line-height: 2.8rem; 
+}
+
+.request{
+margin-top: 2.6rem;
+ padding: 0.9rem 10.9rem;
+ width: 32.6rem;
+ height: 4.6rem;
+ border-radius: 2.8rem;
+ background: #54E6AF;
+ box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.50);
+}
+
+.request span{
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.8rem; 
+}
+
+@media only screen and (min-width: 708px){
+    body{
+        background-color: #121725;
+        background-image: url("./img/Bitmap.png"), url("./img/Combined\ Shape\ 3.svg") ;
+        background-position: right 0 top 0, bottom left 5rem;
+    }
+
+    main{
+        width: 63.5rem;
+        height: 50.9rem;
+        position: absolute;
+        margin-top: 25.8rem;
+        background: #121725;
+        padding-top: 9.3rem;
+    }
+
+    h2{
+        width: 100%;
+    }
+
+    main h2 span{
+        padding: 0px;
+    }
+
+ .description{
+    width: 44.5rem;
+    height: 8.4px;
+    font-size: 1.8rem;
+ }
+
+    header{
+       margin-right:59.4rem; ;
+    }
+
+    .wrap{
+     display: flex;
+     flex-direction: column-reverse;
+     margin-top: 11rem;
+
+    }
+
+    .logo{
+        margin-top: 5rem;
+        width: 40rem;
+    }
+
+ 
+}
+
+@media only screen and (min-width:1200px){
+    body{
+        background-image: url("./img/Bitmap\ desktop.png");
+        background-position: top 13rem right 3rem, right 0 bottom 7.8rem;
+        background-size: 70rem 65rem;
+    }
+    header{
+        margin-right: 114rem;
+    }
+    main{
+        margin-right: 55.2rem;
+    }
+}
