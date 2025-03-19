@@ -92,7 +92,7 @@ line-height: 2.8rem;
 
 .request{
 margin-top: 2.6rem;
- padding: 0.9rem 10.9rem;
+
  width: 32.6rem;
  height: 4.6rem;
  border-radius: 2.8rem;
@@ -100,14 +100,12 @@ margin-top: 2.6rem;
  box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.50);
 }
 
-.request span{
-    color: black;
-    font-size: 1.4rem;
-    font-weight: 400;
-    line-height: 2.8rem; 
+#p{
+    color: #d93025;
+    font-size: 1.2rem;
+    margin: 1rem;
 }
-
-@media only screen and (min-width: 708px){
+@media only screen and (min-width:708px){
     body{
         background-color: #121725;
         background-image: url("./img/Bitmap.png"), url("./img/Combined\ Shape\ 3.svg") ;
