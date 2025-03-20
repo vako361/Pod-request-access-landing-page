@@ -80,6 +80,7 @@ line-height: 2.5rem;
     height: 4.6rem;
     border-radius: 2.8rem;
     background: #2C344B;
+    border: unset;
 }
 
 .mail span{
@@ -92,7 +93,7 @@ line-height: 2.8rem;
 
 .request{
 margin-top: 2.6rem;
-
+ border: unset;
  width: 32.6rem;
  height: 4.6rem;
  border-radius: 2.8rem;
@@ -165,5 +166,17 @@ margin-top: 2.6rem;
     }
     main{
         margin-right: 55.2rem;
+    }
+    .mail{
+     height: 4.6rem;
+     width: 40rem;
+     position: relative;
+    
+    }
+    .request{
+        left: 27.3rem;
+        bottom: 15.5rem;
+        width: 12.8rem;
+        position: absolute;
     }
 }
